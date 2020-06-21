@@ -1,0 +1,333 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+.wrap {
+  overflow: hidden;
+}
+header {
+  background-color: #EC715F;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.header-logo {
+  columns: #fff;
+  width: 140px;
+  height: 70px;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav li a {
+  color: #fff;
+  font-size: 20px;
+  line-height: 70px;
+  margin: 0 30px;
+  text-decoration: none;
+}
+.menu {
+  display: none;
+}
+.main {
+  background-image: url(img/mv.png);
+  background-size: cover;
+  height: 650px;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 64px;
+  color: #FAFAFA;
+  margin-bottom: 10px;
+}
+
+.main p {
+  font-size: 20px;
+  color: #FAFAFA;
+}
+
+.portfolio-wrapper {
+  background-color: #ECEFF1;
+}
+
+.wrapper {
+  padding: 90px 0;
+}
+.wrapper-title {
+  font-size: 32px;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.wrapper-title__bar {
+  border-top: solid 3px;
+  color: #EC715F;
+  width: 70px;
+  margin: 0 auto;
+}
+
+.wrapper-text {
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.portfolio-list {
+  margin: 0 auto;
+  display: flex;
+  width: 920px;
+  flex-wrap: wrap;
+}
+
+.portfolio-list img {
+  width: 300px;
+  height: 250px;
+}
+
+.portfolio-img {
+  width: 300px;
+  height: 250px;
+}
+
+#img1.portfolio-img {
+  margin-bottom: 10px;
+}
+
+#img3.portfolio-img {
+  margin-bottom: 10px;
+}
+
+#img2.portfolio-img {
+  margin: 0 10px 10px 10px;
+}
+
+#img5.portfolio-img {
+  margin: 0 10px;
+}
+
+.feature-wrapper {
+  background-color: #fff;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: space-between;
+  width: 980px;
+  margin: 0 auto;
+}
+
+.feature {
+  width: 320px;
+  text-align: center;
+}
+
+#feature2.feature {
+  margin: 0 10px;
+}
+
+.feature h1 {
+  font-size: 20px;
+  color: #000000;
+  margin: 10px 0;
+}
+
+.feature i {
+  font-size: 60px;
+  color: #000000;
+}
+.profile-wrapper {
+  background-color: #ECEFF1;
+
+}
+.profile-info {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+.author {
+  width: 512px;
+  height: 250px;
+  text-align: center;
+}
+
+.author img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.info-list {
+  width: 512px;
+}
+
+.info-list h2 {
+  font-size: 20px;
+  color: #000000;
+  margin: 20px 5px;
+}
+
+.info-list p {
+  font-size: 16px;
+  color: #000000;
+}
+
+.contact-info {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.left-info {
+  width: 400px;
+  padding-left: 100px;
+}
+
+.info {
+  width: 160px;
+  margin: 0 auto;
+}
+
+.right-info {
+  width: 400px;
+  padding-left: 100px;
+}
+
+.icons {
+  display: flex;
+}
+
+.icon {
+  font-size: 50px;
+}
+
+.icon i {
+  color: #000000;
+}
+
+.twitter {
+  margin: 0 20px;
+}
+
+.contact-info h2 {
+  font-size: 20px;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.contact-info p {
+  margin-bottom: 20px;
+}
+
+footer {
+  height: 60px;
+  background-color: #EC715F;
+  text-align: center;
+}
+
+footer p {
+  font-size: 16px;
+  color: #FAFAFA;
+  line-height: 60px;
+}
+
+@media screen and (max-width:768px) {
+  body {
+    min-width: 768px;
+  }
+  .main {
+    background-image: url(img/code.png);
+    background-size: cover;
+    height: 650px;
+    padding-top: 200px;
+    text-align: center;
+  }
+  .wrapper {
+    padding: 90px 10px;
+    text-align: center;
+  }
+  .nav li {
+    display: none;
+  }
+  .menu {
+    display: block;
+    font-size: 30px;
+    line-height: 70px;
+  }
+  .menu i {
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 10px;
+  }
+  
+  .portfolio-list {
+    display: block;
+    width: 100%;
+  }
+  .portfolio-img {
+    margin: 0 auto;
+  }
+  #img2.portfolio-img {
+    margin: 0 auto 10px;
+  }
+  #img4 {
+    display: none;
+  }
+  #img5 {
+    display: none;
+  }
+  #img6 {
+    display: none;
+  }
+  .feature-list {
+    display: block;
+    width: 100%;
+  }
+  .feature {
+    margin: 0 auto;
+  }
+  #feature2.feature {
+    margin: 10px auto;
+  }
+  .author {
+    margin: 0 auto;
+  }
+  .info-list {
+    margin: 0 auto;
+  }
+  .info-list p {
+    width: 100%;
+  }
+  .profile-info {
+    display: block;
+  }
+  .contact-info {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .left-info {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .right-info {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .icons {
+    justify-content: center;
+  }
+  .twitter {
+    margin: 0 5px;
+  }
+}
